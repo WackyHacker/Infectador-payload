@@ -34,7 +34,7 @@ else
 	echo -e "\e[0;32msi no se inicia con usuario root puede que la herramienta no funcione bien"
 	echo -e "\e[1;30m------------------------------------------------------------------------------"
 	echo ""
-	read -p  $"Para ENTER para seguir" enter
+	read -p  $"Pulsa ENTER para seguir" enter
                                         
 	if [[ $enter == "" ]]; then 
 		banner 
