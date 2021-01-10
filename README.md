@@ -21,7 +21,7 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 ```
 apt-get install xterm 
 ```
-## Instalacion 
+## Instalacion ✅
 ```
 git clone https://github.com/WackyHacker/Infectador-payload
 ```
