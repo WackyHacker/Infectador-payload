@@ -10,12 +10,16 @@ HERRAMIENTA: Automatizada
 * [Metaploit](http://www.dropwizard.io/1.0.2/docs/) 
 * [xterm](http://www.dropwizard.io/1.0.2/docs/) 
 
-**Instalacion**
+**Instalar Metasploit**
 ```
 sudo apt-get install -y postgresql
 ```
 ```
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+```
+**Instalar Xterm**
+```
+apt-get install xterm 
 ```
 ## Instalacion 
 ```
