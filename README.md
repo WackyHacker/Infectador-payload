@@ -1,5 +1,12 @@
 # Infectador-payload
-Esta herramienta es la mejor herramienta de payloads jamas vista ya que aparte de crearte cualquier tipo de payload, permite subir el payload a un servidor apache2
+Herramienta perfecta para crear cargas utiles (Backdoors) a una alta velocidad, esta herramienta preside de diferentes opciones, incluiendo la opcion de poder subir tu carga util
+a un servidor web (apache2).
+
+INTERFAZ: Grafica
+IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.
+HERRAMIENTA: Automatizada
+
+¿Como funciona?
 
 Antes de ejecutar la herramienta con 'sudo bash Infectador-payload', ejecuta primero 'sudo su' y después ejecuta 'bash' Infectador-payload, si no se hace puede que de problemas en el futuro.
 
