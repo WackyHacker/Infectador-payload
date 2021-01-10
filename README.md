@@ -15,10 +15,11 @@ Una vez la herramienta ya esta ejecutada correctamente, se vera algo asi.
 
 Utilizarla es muy sencillo solo hay que seleccionar la opción a utilizar (la ultima esta en mantenimiento), una vez elegida debemos seleccionar la carga útil de nuestra preferencia.
 
-![video2](https://user-images.githubusercontent.com/69093629/104136537-2cb29400-5397-11eb-8d1d-3ffdea3bd598.gif)
+![videosito](https://user-images.githubusercontent.com/69093629/104136758-66d06580-5398-11eb-9526-58302e9f286b.gif)
 
 Una vez elegidas las opciones de preferencia a utilizar, hay que escribir el 'LHOST' , 'LPORT'>[Recomendable: 4444], el nombre de tu Backdoor sin su extensión [EX: exe, py] , y finalmente la ruta donde quieres guardar el Backdoor (ojo si eliges que el ataque se efectúe fuera de la red LAN >ngrok< la víctima no podra descargar e instalar el Backdoor a menos que este conectada en la misma red WI-FI que tu) si eliges sin querer subir tu Backdoor a un servidor apache2, para arreglarlo o pulsamos CTRL + C para salir de la herramienta, o puedes acceder a la ruta donde está alojado el servidor apache2 con este comando 'cd /var/www/html/' y tu Backdoor estará ahí, para no tener problemas, cuando te pida que digites una ruta para guardar el Backdoor, pulsa 'ENTER' y se te guardará automáticamente en el mismo directorio que estás ahora mismo en la carpeta Backdoors.
 
 
 Y se empezará a crear el Backdoor satisfactoriamente...
 
+![video2](https://user-images.githubusercontent.com/69093629/104136537-2cb29400-5397-11eb-8d1d-3ffdea3bd598.gif)
