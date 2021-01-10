@@ -6,7 +6,7 @@ INTERFAZ: Grafica
 IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.
 HERRAMIENTA: Automatizada
 
-¿Como funciona?
+## ¿Como funciona?
 
 Antes de ejecutar la herramienta con 'sudo bash Infectador-payload', ejecuta primero 'sudo su' y después ejecuta 'bash' Infectador-payload, si no se hace puede que de problemas en el futuro.
 
