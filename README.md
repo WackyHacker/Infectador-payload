@@ -1,10 +1,24 @@
 # Infectador-payload
-Herramienta perfecta para crear cargas utiles (Backdoors) a una alta velocidad, esta herramienta preside de diferentes opciones, incluiendo la opcion de poder subir tu carga util
-a un servidor web (apache2).
+Herramienta perfecta para crear cargas utiles (Backdoors) a una alta velocidad, esta herramienta preside de diferentes opciones, incluiendo la opcion de poder subir tu carga util a un servidor web (apache2).
 
 INTERFAZ: Grafica
 IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.
 HERRAMIENTA: Automatizada
+
+## Instalacion 
+
+```
+git clone https://github.com/WackyHacker/Infectador-payload
+```
+```
+cd Infectador-payload 
+```
+```
+sudo su
+```
+```
+bash Infectador-payload.sh
+```
 
 ## ¿Como funciona?
 
