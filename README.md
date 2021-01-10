@@ -5,8 +5,19 @@ INTERFAZ: Grafica
 IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.
 HERRAMIENTA: Automatizada
 
-## Instalacion 
+## Pre-requisitos 📋
 
+* [Metaploit](http://www.dropwizard.io/1.0.2/docs/) 
+* [xterm](http://www.dropwizard.io/1.0.2/docs/) 
+
+**Instalacion**
+```
+sudo apt-get install -y postgresql
+```
+```
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+```
+## Instalacion 
 ```
 git clone https://github.com/WackyHacker/Infectador-payload
 ```
@@ -19,6 +30,20 @@ sudo su
 ```
 bash Infectador-payload.sh
 ```
+
+## Construido con 🛠️
+
+* [Metasploit](https://www.metasploit.com/) - Despliege de carga util
+* [Msfvenom](https://www.metasploit.com/) - Creador de cargas utiles
+* [Apache2](https://httpd.apache.org/) - Servidor web
+
+## Autor ✒️
+
+* **WackyHacker** - *Todo el proyecto* - [WEIK](https://github.com/WackyHacker)
+
+## Licencia 📄
+
+Este proyecto esta bajo Licencia - mira el archivo [License.md](https://github.com/WackyHacker/Infectador-payload/blob/master/License.md) para mas detalles
 
 ## ¿Como funciona?
 
