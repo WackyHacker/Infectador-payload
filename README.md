@@ -57,7 +57,7 @@ bash Infectador-payload.sh
 
 ## Licencia 📄
 
-Este proyecto esta bajo Licencia - mira el archivo [License.md](https://github.com/WackyHacker/Infectador-payload/blob/master/License.md) para mas detalles
+Este proyecto esta bajo Licencia - mira el archivo [LICENSE](https://github.com/WackyHacker/Infectador-payload/blob/master/LICENSE) para mas detalles
 
 ## ¿Como funciona?
 
