@@ -17,8 +17,8 @@ Herramienta perfecta para crear cargas utiles (Backdoors) a una alta velocidad, 
 
 ## Pre-requisitos 📋
 
-* [Metaploit](http://www.dropwizard.io/1.0.2/docs/) 
-* [xterm](http://www.dropwizard.io/1.0.2/docs/) 
+* [Metaploit](https://www.metasploit.com/) 
+* [xterm](https://es.wikipedia.org/wiki/Xterm) 
 
 **Instalar Metasploit**
 ```
