@@ -26,7 +26,7 @@ if ! [ $(id -u) = 0 ]; then
 	sleep 2
 	exit
 else	
-	mkdir Backdoors/
+	mkdir Backdoors/ 2>/dev/null
 	echo -e "\e[1;30m------------------------------------------------------------------------------"
 	echo -e "\e[0;32mPara ejecutar esta herramienta al 100% debes usar \e[1;32m» sudo su \e[1;32m« "
 	echo -e "\e[0;32mcuando ya seas usuario root ejecuta \e[1;32m» bash Infectador-payload.sh \e[1;32m«"
