@@ -61,7 +61,7 @@ echo -e  "\e[1;32mConectado a Internet [✔]"
 sleep 1
 else
 echo ""
-echo "\e[1;31mNo conectado a Internet [!]"
+echo -e "\e[1;31mNo conectado a Internet [!]"
 sleep 1.5
 exit
 fi
