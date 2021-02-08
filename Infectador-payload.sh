@@ -233,21 +233,21 @@ echo ""
 
 function banner2(){
 sleep 0.05
-echo -e "\e[1;34m[1] Payload-Windows"
+echo -e "\e[1;34m[01] Payload-Windows"
 sleep 0.05
-echo -e "\e[1;34m[2] Payload-Linux       "
+echo -e "\e[1;34m[02] Payload-Linux       "
 sleep 0.05
-echo -e "\e[1;34m[3] Payload-Android"
+echo -e "\e[1;34m[03] Payload-Android"
 sleep 0.05
-echo -e "\e[1;34m[4] Payload-MAC OS       "
+echo -e "\e[1;34m[04] Payload-MAC OS       "
 sleep 0.05
-echo -e "\e[1;34m[5] Payload-Python    "
+echo -e "\e[1;34m[05] Payload-Python    "
 sleep 0.05
-echo -e "\e[1;34m[6] Payload-PHP       "
+echo -e "\e[1;34m[06] Payload-PHP       "
 sleep 0.05
-echo -e "\e[1;34m[7] Payload-Bash      "
+echo -e "\e[1;34m[07] Payload-Bash      "
 sleep 0.05
-echo -e "\e[1;34m[8] Payload-Perl" 
+echo -e "\e[1;34m[08] Payload-Perl" 
 sleep 0.05
 echo -e "\e[1;34m[99] Instalar Ngrok"
 sleep 0.05 
@@ -8204,17 +8204,41 @@ en la carpeta Backdoors/ dale ENTER. !Si aceptas subir tu .pl al servidor apache
 fi
 
 if [[ $option == 99 || $option == 099 ]]; then
-	echo -e "\e[1;33mEsta opcion esta esta en mantenimiento"
-	sleep 2
-	clear
-	banner
-	banner2
+ping -c 1 google.com > /dev/null 2>&1
+
+if [ "$?" == 0 ]; then 
+
+        echo -e "\n\e[1;33mInstalando ngrok..."
+        sleep 2
+        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+        unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1 
+        rm -rf ngrok-stable-linux-amd64.zip
+        echo "" 
+        read -p $"Authtoken > " auth
+        ./ngrok authtoken $auth > /dev/null 2>&1        
+        if [ $(ls | grep ngrok) == "ngrok" ]; then
+                echo -e "\e[1;32m\nngrok instalado con exito"
+                sleep 2 
+                banner
+                banner2
+        else 
+
+                echo -e "\n\e[1;31mError de instalacion"
+
+        fi 
+
+else
+
+        echo -e "\e[1;31m\nNo estas conectado a internet"
+fi
+
+        
 else 
-	echo -e "\e[1;31mPara seguir debes elegir una opcion valida"
-	sleep 2
-	clear
-	banner
-	banner2
+        echo -e "\e[1;31m\nPara seguir debes elegir una opcion valida"
+        sleep 2
+        clear
+        banner
+        banner2
 fi
 }		
 banner2
