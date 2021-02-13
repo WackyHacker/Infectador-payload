@@ -140,7 +140,6 @@ echo -e  " \e[0;34m|_| |_|\__, |_|  \___/|_|\_|"
 echo -e  	" \e[0;34m|___/                "
 echo -e "\e[1;35m★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★"
 echo ""   
-echo -e "\e[1;31mEsta opcion esta en MANTENIMIENTO"
 }
 
 
@@ -8207,7 +8206,7 @@ if [[ $option == 99 || $option == 099 ]]; then
 ping -c 1 google.com > /dev/null 2>&1
 
 if [ "$?" == 0 ]; then 
-
+	ngrok
         echo -e "\n\e[1;33mInstalando ngrok..."
         sleep 2
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
